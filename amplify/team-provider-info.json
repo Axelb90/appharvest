@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-apphavest-dev-102557-authRole",
+      "UnauthRoleArn": "arn:aws:iam::866127222737:role/amplify-apphavest-dev-102557-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::866127222737:role/amplify-apphavest-dev-102557-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-apphavest-dev-102557-deployment",
+      "UnauthRoleName": "amplify-apphavest-dev-102557-unauthRole",
+      "StackName": "amplify-apphavest-dev-102557",
+      "StackId": "arn:aws:cloudformation:us-east-2:866127222737:stack/amplify-apphavest-dev-102557/0833b590-e4a7-11eb-8058-029cc9ea9bb6",
+      "AmplifyAppId": "d32cwok71dns2j"
+    },
+    "categories": {
+      "auth": {
+        "apphavest730e947a": {
+          "userPoolId": "us-east-2_hWCJsqNZn",
+          "userPoolName": "FarmOpsUsers",
+          "webClientId": "6a6e8477052h1rttjkq6kr51sp",
+          "nativeClientId": "6isevbs7060rc6kq8ut903mboj",
+          "identityPoolId": "us-east-2:84225a83-42ca-41fa-95ed-461c072b019d",
+          "identityPoolName": "ExistingUserPool",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::866127222737:role/Cognito_ExistingUserPoolAuth_Role",
+          "authRoleName": "Cognito_ExistingUserPoolAuth_Role",
+          "unauthRoleArn": "arn:aws:iam::866127222737:role/Cognito_ExistingUserPoolUnauth_Role",
+          "unauthRoleName": "Cognito_ExistingUserPoolUnauth_Role"
+        }
+      }
+    }
+  }
+}

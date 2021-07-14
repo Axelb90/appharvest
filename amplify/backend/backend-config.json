@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "apphavest730e947a": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
