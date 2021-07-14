@@ -2,18 +2,8 @@
 // this is an auto generated file. This will be overwritten
 
 export const onCreateTomato_quality_report = /* GraphQL */ `
-  subscription OnCreateTomato_quality_report(
-    $id: ID
-    $color: String
-    $zone: String
-    $weight: String
-  ) {
-    onCreateTomato_quality_report(
-      id: $id
-      color: $color
-      zone: $zone
-      weight: $weight
-    ) {
+  subscription OnCreateTomato_quality_report {
+    onCreateTomato_quality_report {
       id
       color
       zone
@@ -21,6 +11,7 @@ export const onCreateTomato_quality_report = /* GraphQL */ `
     }
   }
 `;
+
 export const onUpdateTomato_quality_report = /* GraphQL */ `
   subscription OnUpdateTomato_quality_report(
     $id: ID
